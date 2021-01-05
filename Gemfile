@@ -70,7 +70,18 @@ gem 'devise-i18n'
 gem 'devise-i18n-views'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'kaminari'
+gem 'kaminari-bootstrap'
+gem 'omniauth'
 gem 'omniauth-twitter'
+gem 'pry-byebug'
+gem 'rails-i18n'
 gem 'redcarpet', '~> 2.3.0'
 gem 'simple_form'
+gem 'slim-rails'
 gem 'summernote-rails'
+
+
+
+
+
