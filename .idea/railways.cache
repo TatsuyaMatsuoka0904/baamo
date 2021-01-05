@@ -1,0 +1,15 @@
+                   Prefix Verb   URI Pattern                                                                              Controller#Action
+                 articles GET    /public/articles(.:format)                                                               articles#index
+                          POST   /public/articles(.:format)                                                               articles#create
+              new_article GET    /public/articles/new(.:format)                                                           articles#new
+             edit_article GET    /public/articles/:id/edit(.:format)                                                      articles#edit
+                  article GET    /public/articles/:id(.:format)                                                           articles#show
+                          PATCH  /public/articles/:id(.:format)                                                           articles#update
+                          PUT    /public/articles/:id(.:format)                                                           articles#update
+                          DELETE /public/articles/:id(.:format)                                                           articles#destroy
+                          GET    /public(.:format)                                                                        homes#top
+       rails_service_blob GET    /rails/active_storage/blobs/:signed_id/*filename(.:format)                               active_storage/blobs#show
+rails_blob_representation GET    /rails/active_storage/representations/:signed_blob_id/:variation_key/*filename(.:format) active_storage/representations#show
+       rails_disk_service GET    /rails/active_storage/disk/:encoded_key/*filename(.:format)                              active_storage/disk#show
+update_rails_disk_service PUT    /rails/active_storage/disk/:encoded_token(.:format)                                      active_storage/disk#update
+     rails_direct_uploads POST   /rails/active_storage/direct_uploads(.:format)                                           active_storage/direct_uploads#create
